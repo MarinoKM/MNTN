@@ -1,0 +1,1911 @@
+body {
+    position:relative;
+    background-color: #0B1D26;
+    overflow-x: hidden;
+}
+
+p {
+    color: white;
+}
+
+.prvaslika {
+    position:relative;
+    width: 101%;
+    height: 100%;
+    margin-top: -5%;
+    margin-left: -0.5%;
+}
+
+.drugaslika {
+    position:relative;
+    width: 101%;
+    height: 100%;
+    margin-left: -0.5%;
+    margin-top: -38%;
+}
+
+.trecaslika {
+    position:relative;
+    width: 101%;
+    height: 100%;
+    margin-left: -0.5%;
+    margin-top: -200%;
+    z-index:2;
+}
+
+.transition {
+    position:relative;
+    width: 101%;
+    margin-top: -60%;
+    margin-left: -0.5%;
+    z-index:4;
+}
+
+/*NAVBAR-----------------------------------------------------------------------------------------------*/
+.navbar {
+    position: absolute;
+    margin-top: -92%;
+    margin-left: 5%;
+    height: 10%;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    gap: 20%;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.logodiv {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    align-items: center;
+    overflow: hidden;
+}
+
+.srednjidiv {
+    margin-left: -15%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.desnidiv {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    overflow: hidden;
+}
+
+.logobtn {
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.equipment {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+
+.aboutus {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+
+.blog {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+
+.account {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 50px;
+    color: white;
+}
+
+.accounticon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    margin-bottom: -5px;
+}
+
+/*TITLE------------------------------------------------------------------------------------------------*/
+
+.naslovcontainer {
+    position: absolute;
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 12%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    gap: 0px;
+    overflow: hidden;
+    z-index:1;
+}
+
+.livomain {
+    margin-left: 12%;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    align-items: center;
+    gap: 30px;
+    overflow: hidden;
+}
+
+.followus {
+    margin-left: 1%;
+}
+
+.sredinamain {
+    margin-left: 22%;
+    width: 70%;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    align-items: center;
+    gap: 0px;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.velikimininaslov {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 800;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #fbd784
+}
+
+.maintitle {
+    margin-top: -5%;
+    font-family: 'Serif Display', sans-serif;
+    width: 70%;
+    font-size: 64px;
+    line-height: 110%;
+    font-weight: 600;
+}
+
+.desnomain {
+    margin-left: 0%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    gap: 0px;
+    overflow: hidden;
+}
+
+.desnomain1 {
+    margin-left: 0%;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    align-items: center;
+    gap: 40px;
+    overflow: hidden;
+}
+
+.sliderstart {
+    color: white;
+}
+
+.sliderbroj {
+    color: white;
+    margin-left: 25%;
+}
+
+.slider1 {
+    z-index: 99999991;
+}
+
+.slider2 {
+    margin-bottom: 122%;
+    margin-left: -5%;
+    z-index: 99999992;
+}
+
+.strelicadoli {
+    width: 16px;
+    height: 24px;
+    margin-bottom: -7px;
+    margin-left: 1.5%;
+}
+
+.scrolldownslova {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+}
+
+.scrolldown {
+    margin-top: -5%;
+}
+
+/*BODY--------------------------------------------------------------------------------------------------*/
+.bodysection {
+    position: absolute;
+    width: 80%;
+    height: 210%;
+    margin-left: 5%;
+    padding-right: 5%;
+    margin-top: -20%;
+
+}
+
+.justbackground{
+    background-color:#0B1D26;
+    position:absolute;
+    width:140%;
+    height:100%;
+    margin-left:-20%;
+    margin-top:20%;
+    z-index:3;
+}
+
+.duja{
+    margin-top:5%;
+}
+.trica{
+    margin-top:12%;
+}
+
+.prvaminislika {
+    margin-left: -30%;
+    width: 566px;
+    height: 720px;
+}
+
+
+
+.drugaminislika {
+    margin-left: 2%;
+    width: 566px;
+    height: 720px;
+}
+
+
+
+.trecaminislika {
+    margin-left: -30%;
+    width: 566px;
+    height: 720px;
+}
+
+
+
+.line {
+    width: 72px;
+    height: 2px;
+    margin-bottom: 5px;
+}
+
+.minititle1 {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 800;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #fbd784
+}
+
+.title1 {
+    margin-top: -5%;
+    font-family: 'Serif Display', sans-serif;
+    max-width: 70%;
+    font-size: 64px;
+    line-height: 110%;
+    font-weight: 600;
+}
+
+.maliparagraph1 {
+    margin-top: -5%;
+    font-size: 20px;
+    height: 80%;
+    max-width: 70%;
+    line-height: 150%;
+}
+
+.minititle2 {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 800;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #fbd784
+}
+
+.title2 {
+    margin-top: -5%;
+    font-family: 'Serif Display', sans-serif;
+    max-width: 70%;
+    font-size: 64px;
+    line-height: 110%;
+    font-weight: 600;
+}
+
+.maliparagraph2 {
+    margin-top: -5%;
+    font-size: 20px;
+    height: 80%;
+    max-width: 85%;
+    line-height: 150%;
+}
+
+.minititle3 {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 800;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #fbd784
+}
+
+.title3 {
+    margin-top: -5%;
+    font-family: 'Serif Display', sans-serif;
+    max-width: 70%;
+    font-size: 64px;
+    line-height: 110%;
+    font-weight: 600;
+}
+
+.maliparagraph3 {
+    margin-top: -5%;
+    font-size: 20px;
+    height: 80%;
+    max-width: 70%;
+    line-height: 150%;
+}
+
+.strelica {
+    width: 24px;
+    height: 16px;
+    margin-bottom: -4.5px;
+    margin-left: 1.5%;
+}
+
+.readmoreslova {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 800;
+    color: #fbd784;
+    text-decoration: none;
+}
+
+.readmore {
+    margin-top: 10%;
+}
+
+
+
+/*FOOTER-------------------------------------------------------------------------------------------*/
+
+
+.livifooter {
+    display: grid;
+    margin-top: 10%;
+    grid-template-rows: repeat(3, auto);
+    align-items: center;
+    gap: 100px;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.desnifooter {
+    display: grid;
+    margin-top: -4%;
+    margin-left: 10%;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    gap: 0px;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.desnifooter1 {
+    margin-left: 15%;
+    width: 250px;
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    align-items: center;
+    gap: 40px;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.desnifooter2 {
+    display: grid;
+    margin-left: 15%;
+    margin-top: -30%;
+    width: 250px;
+    grid-template-rows: repeat(4, auto);
+    align-items: center;
+    gap: 40px;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.footernaslovtext {
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+}
+
+.footertext1 {
+    font-size: 20px;
+    height: 160px;
+    width: 300px;
+    line-height: 150%;
+}
+
+.footercopyright {
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.footercopyrighttext {
+    text-decoration: none;
+    color: white;
+}
+
+.footermininaslov {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fbd784;
+    text-decoration: none;
+}
+
+.footertext {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white
+}
+
+@media only screen and (max-width: 700px) {
+    .logobtn {
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 800;
+        letter-spacing: 2px;
+        color: white;
+    }
+
+    .maliparagraph1 {
+        margin-top: -5%;
+        font-size: 15px;
+        height: 80%;
+        max-width: 70%;
+        line-height: 150%;
+        text-align: justify;
+    }
+
+    .maliparagraph2 {
+        margin-top: -20%;
+        font-size: 15px;
+        height: 80%;
+        max-width: 80%;
+        line-height: 150%;
+        text-align: justify;
+    }
+
+    .maliparagraph3 {
+        margin-top: -20%;
+        font-size: 15px;
+        height: 80%;
+        max-width: 70%;
+        line-height: 150%;
+        text-align: justify;
+    }
+
+    .velikimininaslov {
+        font-size: 10px;
+        line-height: 24px;
+        font-weight: 800;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: #fbd784
+    }
+
+    .line {
+        width: 20px;
+        height: 2px;
+        margin-bottom: 5px;
+    }
+
+    .minititle1 {
+        font-size: 10px;
+        line-height: 24px;
+        font-weight: 800;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: #fbd784
+    }
+
+    .minititle2 {
+        font-size: 10px;
+        line-height: 24px;
+        font-weight: 800;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: #fbd784
+    }
+
+    .minititle3 {
+        font-size: 10px;
+        width: 80%;
+        line-height: 24px;
+        font-weight: 800;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: #fbd784
+    }
+
+    .title1 {
+        margin-top: -5%;
+        font-family: 'Serif Display', sans-serif;
+        width: 70%;
+        font-size: 20px;
+        line-height: 110%;
+        font-weight: 600;
+    }
+
+    .title2 {
+        margin-top: -5%;
+        font-family: 'Serif Display', sans-serif;
+        width: 70%;
+        font-size: 20px;
+        line-height: 110%;
+        font-weight: 600;
+    }
+
+    .title3 {
+        margin-top: -5%;
+        font-family: 'Serif Display', sans-serif;
+        width: 70%;
+        font-size: 20px;
+        line-height: 110%;
+        font-weight: 600;
+    }
+
+    .livomain {
+        display: none;
+    }
+
+    .desnomain {
+        display: none;
+    }
+
+    .maintitle {
+        margin-top: -15%;
+        font-family: 'Serif Display', sans-serif;
+        width: 70%;
+        font-size: 40px;
+        line-height: 110%;
+        font-weight: 600;
+    }
+
+    .navbar {
+        position: absolute;
+        margin-top: -100%;
+        margin-left: -0.5%;
+        height: 10%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        align-items: center;
+        gap: 20%;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+    .logodiv {
+        display: grid;
+        margin-left: 5%;
+        grid-template-columns: repeat(1, auto);
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .srednjidiv {
+        display: none;
+    }
+
+    .desnidiv {
+        display: none;
+    }
+
+    .naslovcontainer {
+        position: absolute;
+        width: 100%;
+        margin-left: 5%;
+        margin-top: 15%;
+        display: grid;
+        align-items: center;
+        gap: 0px;
+        overflow: hidden;
+    }
+
+    .footertext {
+        font-size: 15px;
+        font-weight: 500;
+        text-decoration: none;
+        color: white
+    }
+
+    .footertext1 {
+        font-size: 15px;
+        height: 160px;
+        width: 300px;
+        line-height: 150%;
+    }
+
+    .footercopyright {
+        font-size: 15px;
+        opacity: 0.5;
+    }
+}
+
+@media only screen and (min-width:430px) and (max-width:699px) {
+
+    .naslovcontainer {
+        position: absolute;
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 15%;
+        display: grid;
+        align-items: center;
+        gap: 0px;
+        overflow: hidden;
+    }
+
+    .minititle1 {
+        font-size: 10px;
+        line-height: 24px;
+        font-weight: 800;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: #fbd784
+    }
+
+    .minititle2 {
+        font-size: 10px;
+        line-height: 24px;
+        font-weight: 800;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: #fbd784
+    }
+
+    .minititle3 {
+        font-size: 10px;
+        line-height: 24px;
+        font-weight: 800;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: #fbd784
+    }
+
+    .title1 {
+        margin-top: -5%;
+        font-family: 'Serif Display', sans-serif;
+        width: 70%;
+        font-size: 30px;
+        line-height: 110%;
+        font-weight: 600;
+    }
+
+    .title2 {
+        margin-top: -5%;
+        font-family: 'Serif Display', sans-serif;
+        width: 70%;
+        font-size: 30px;
+        line-height: 110%;
+        font-weight: 600;
+    }
+
+    .title3 {
+        margin-top: -5%;
+        font-family: 'Serif Display', sans-serif;
+        width: 70%;
+        font-size: 30px;
+        line-height: 110%;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width:1px) and (max-width:1800px) {
+    .desnomain {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1001px) and (max-width:1500px) {
+    .desnomain {
+        display: none;
+    }
+
+    .jedinica {
+        position: absolute;
+        top: 30px;
+        left: 160px;
+        z-index: 9999999999;
+    }
+
+    .duja {
+        position: absolute;
+        top: 1200px;
+        left: 760px;
+        z-index: 9999999999;
+    }
+
+    .trica {
+        position: absolute;
+        top: 2100px;
+        left: 160px;
+        z-index: 9999999999;
+    }
+
+    .firstsection {
+        margin-top: 10%;
+        padding-left: 10%;
+        height: 10%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+    }
+
+    .secondsection {
+        margin-top: 60%;
+        padding-left: 10%;
+        height: 10%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+    }
+
+    .thirdsection {
+        margin-top: 60%;
+        padding-left: 10%;
+        height: 10%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+    }
+
+    .prvaslika {
+        width: 102%;
+        height: 100%;
+        margin-top: -5%;
+        margin-left: -0.5%;
+    }
+
+    .drugaslika {
+        width: 102%;
+        height: 100%;
+        margin-left: -0.5%;
+        margin-top: -38%;
+    }
+
+    .trecaslika {
+        width: 102%;
+        height: 100%;
+        margin-left: -0.5%;
+        margin-top: -200%;
+    }
+
+    .transition {
+        width: 102%;
+        margin-top: -60%;
+        margin-left: -0.5%;
+    }
+
+    .prvaminislika {
+        margin-left: -20%;
+        width: 566px;
+        height: 720px;
+    }
+
+    .drugaminislika {
+        margin-left: 2%;
+        width: 566px;
+        height: 720px;
+    }
+
+    .trecaminislika {
+        margin-left: -20%;
+        width: 566px;
+        height: 720px;
+    }
+
+    .desnifooter2 {
+        display: grid;
+        margin-left: 15%;
+        margin-top: -40%;
+        width: 250px;
+        grid-template-rows: repeat(4, auto);
+        align-items: center;
+        gap: 40px;
+        z-index: 9999;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width:701px) and (max-width: 1100px) {
+
+    .line {
+        width: 20px;
+        height: 2px;
+        margin-bottom: 5px;
+    }
+
+    .livomain {
+        display: none;
+    }
+
+    .desnomain {
+        display: none;
+    }
+
+    .navbar {
+        position: absolute;
+        margin-top: -92%;
+        margin-left: 5%;
+        height: 10%;
+        width: 95%;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        align-items: center;
+        gap: 10%;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+    .desnidiv {
+        width: 100%;
+        margin-left: -10%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .maintitle {
+        margin-top: -5%;
+        font-family: 'Serif Display', sans-serif;
+        width: 70%;
+        font-size: 50px;
+        line-height: 110%;
+        font-weight: 600;
+    }
+
+    .naslovcontainer {
+        position: absolute;
+        width: 100%;
+        margin-left: 2%;
+        margin-top: 15%;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        align-items: center;
+        gap: 0px;
+        overflow: hidden;
+    }
+
+    .velikimininaslov {
+        font-size: 10px;
+        line-height: 24px;
+        font-weight: 800;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: #fbd784;
+    }
+
+    .minititle1 {
+        font-size: 10px;
+        line-height: 24px;
+        font-weight: 800;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: #fbd784
+    }
+
+    .minititle2 {
+        font-size: 10px;
+        line-height: 24px;
+        font-weight: 800;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: #fbd784
+    }
+
+    .minititle3 {
+        font-size: 10px;
+        line-height: 24px;
+        font-weight: 800;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: #fbd784
+    }
+
+    .title1 {
+        margin-top: -5%;
+        font-family: 'Serif Display', sans-serif;
+        width: 70%;
+        font-size: 40px;
+        line-height: 110%;
+        font-weight: 600;
+    }
+
+    .title2 {
+        margin-top: -5%;
+        font-family: 'Serif Display', sans-serif;
+        width: 70%;
+        font-size: 40px;
+        line-height: 110%;
+        font-weight: 600;
+    }
+
+    .title3 {
+        margin-top: -5%;
+        font-family: 'Serif Display', sans-serif;
+        width: 70%;
+        font-size: 40px;
+        line-height: 110%;
+        font-weight: 600;
+    }
+
+    .desnifooter2 {
+        display: grid;
+        margin-left: 15%;
+        margin-top: -75%;
+        width: 250px;
+        grid-template-rows: repeat(4, auto);
+        align-items: center;
+        gap: 40px;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+}
+
+@media only screen and (min-width:1001px) and (max-width:1300px) {
+    .prvaminislika {
+        margin-left: -20%;
+        width: 400px;
+        height: 520px;
+    }
+
+    .drugaminislika {
+        margin-left: 2%;
+        width: 400px;
+        height: 520px;
+    }
+
+    .trecaminislika {
+        margin-left: -20%;
+        width: 400px;
+        height: 520px;
+    }
+
+    .desnifooter2 {
+        display: grid;
+        margin-left: 15%;
+        margin-top: -45%;
+        width: 250px;
+        grid-template-rows: repeat(4, auto);
+        align-items: center;
+        gap: 40px;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+}
+
+@media only screen and (min-width:1001px) and (max-width:1200px) {
+    .firstsection {
+        margin-top: 10%;
+        padding-left: 10%;
+        height: 10%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+    }
+
+    .secondsection {
+        margin-top: 60%;
+        padding-left: 10%;
+        height: 10%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+    }
+
+    .thirdsection {
+        margin-top: 60%;
+        padding-left: 10%;
+        height: 10%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+    }
+
+    .maliparagraph1 {
+        margin-top: -20%;
+        font-size: 20px;
+        height: 80%;
+        max-width: 70%;
+        line-height: 150%;
+    }
+
+    .maliparagraph2 {
+        margin-top: -20%;
+        font-size: 20px;
+        height: 80%;
+        max-width: 85%;
+        line-height: 150%;
+    }
+
+    .maliparagraph3 {
+        margin-top: -20%;
+        font-size: 20px;
+        height: 80%;
+        max-width: 70%;
+        line-height: 150%;
+    }
+
+    .readmore {
+        margin-top: 20%;
+    }
+
+    .footersection {
+        margin-top: 55%;
+        padding-left: 5%;
+        height: 10%;
+        width: 110%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        gap: 5px;
+        z-index: 9999;
+
+    }
+
+}
+
+@media screen and (min-width:1001px) and (max-width:1920px) {
+    .jedinica {
+        position: absolute;
+        top: 30px;
+        left: 160px;
+        z-index: 9999999999;
+    }
+
+    .duja {
+        position: absolute;
+        top: 1200px;
+        left: 760px;
+        z-index: 9999999999;
+    }
+
+    .trica {
+        position: absolute;
+        top: 2380px;
+        left: 160px;
+        z-index: 9999999999;
+    }
+
+    .footersection {
+        margin-top: 55%;
+        padding-left: 10%;
+        height: 10%;
+        width: 110%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        gap: 5px;
+        z-index: 9999;
+
+    }
+
+    .firstsection {
+        margin-top: 0%;
+        padding-left: 20%;
+        height: 10%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+
+    }
+
+    .firstsection1 {
+        display: grid;
+        grid-template-rows: repeat(4, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+    .firstsection2 {
+        display: grid;
+        grid-template-rows: repeat(1, auto);
+        align-items: center;
+        z-index: 999;
+    }
+
+    .secondsection {
+        margin-top: 60%;
+        padding-left: 10%;
+        height: 10%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+
+    }
+
+    .secondsection1 {
+        display: grid;
+        margin-left: 20%;
+        grid-template-rows: repeat(4, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+    .secondsection2 {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        align-items: center;
+        z-index: 999;
+    }
+
+    .thirdsection {
+        margin-top: 60%;
+        padding-left: 20%;
+        padding-right: 50%;
+        height: 10%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+
+    }
+
+    .thirdsection1 {
+        display: grid;
+        grid-template-rows: repeat(4, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+    .thirdsection2 {
+        display: grid;
+        grid-template-rows: repeat(1, auto);
+        align-items: center;
+        z-index: 999;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    .navbar {
+        position: absolute;
+        margin-top: -140%;
+        margin-left: 5%;
+        height: 10%;
+        width: 95%;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        align-items: center;
+        gap: 20%;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+    .sredinamain {
+        margin-top: 10%;
+        margin-left: 15%;
+        width: 90%;
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+    .footersection {
+        margin-top: 140%;
+        padding-left: -10%;
+        height: 10%;
+        width: 110%;
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        align-items: center;
+        gap: 5px;
+        z-index: 9999;
+
+    }
+
+    .livifooter {
+        display: grid;
+        margin-top: 10%;
+        padding-left: 10%;
+        grid-template-rows: repeat(3, auto);
+        align-items: center;
+        gap: 100px;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+    .desnifooter {
+        display: none;
+    }
+
+    .desnifooter1 {
+        margin-left: 15%;
+        width: 250px;
+        display: grid;
+        grid-template-rows: repeat(6, auto);
+        align-items: center;
+        gap: 40px;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+    .desnifooter2 {
+        display: grid;
+        margin-left: 15%;
+        margin-top: -30%;
+        width: 250px;
+        grid-template-rows: repeat(4, auto);
+        align-items: center;
+        gap: 40px;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+    .firstsection {
+        margin-top: 60%;
+        padding-left: 5%;
+        height: 10%;
+        width: 140%;
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+    }
+
+    .firstsection1 {
+        display: grid;
+        grid-template-rows: repeat(4, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+    .firstsection2 {
+        display: grid;
+        grid-template-rows: repeat(1, auto);
+        align-items: center;
+        z-index: 999;
+    }
+
+    .prvaminislika {
+        padding-top: 80%;
+        margin-left: 0%;
+        width: 70%;
+        height: 60%;
+    }
+
+    .secondsection {
+        margin-top: 10%;
+        padding-left: 6%;
+        height: 10%;
+        width: 140%;
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+
+    }
+
+    .secondsection1 {
+        display: grid;
+        padding-left: 5%;
+        margin-top: -350%;
+        grid-template-rows: repeat(4, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+    .secondsection2 {
+        padding-left: 5%;
+        padding-top: 100%;
+        display: grid;
+        grid-template-rows: repeat(1, auto);
+        align-items: center;
+        z-index: 999;
+    }
+
+    .drugaminislika {
+        margin-top: 90%;
+        margin-left: 0%;
+        width: 80%;
+        height: 60%;
+    }
+
+    .thirdsection {
+        margin-top: 400%;
+        padding-left: 5%;
+        padding-right: 50%;
+        height: 10%;
+        width: 140%;
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+
+    }
+
+    .thirdsection1 {
+        display: grid;
+        grid-template-rows: repeat(4, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+    .thirdsection2 {
+        display: grid;
+        grid-template-rows: repeat(1, auto);
+        align-items: center;
+        z-index: 999;
+    }
+
+    .trecaminislika {
+        padding-top: 80%;
+        margin-left: 0%;
+        width: 70%;
+        height: 60%;
+    }
+
+    .prvaslika {
+        width: 150%;
+        height: 100%;
+        margin-top: -5%;
+        margin-left: -30%;
+    }
+
+    .drugaslika {
+        width: 150%;
+        height: 100%;
+        margin-left: -30%;
+        margin-top: -70%;
+    }
+
+    .trecaslika {
+        width: 150%;
+        height: 100%;
+        margin-left: -30%;
+        margin-top: -60%;
+    }
+
+    .transition {
+        width: 150%;
+        margin-top: -60%;
+        margin-left: -30%;
+    }
+
+}
+
+@media screen and (min-width:700px) and (max-width:1000px) {
+    .prvaminislika {
+        padding-top: 50%;
+        margin-left: 0%;
+        width: 70%;
+        height: 60%;
+    }
+
+    .secondsection {
+        margin-top: 10%;
+        padding-left: 5%;
+        height: 10%;
+        width: 120%;
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+
+    }
+
+    .secondsection1 {
+        display: grid;
+        padding-left: 0%;
+        margin-top: -350%;
+        grid-template-rows: repeat(4, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+    .secondsection2 {
+        padding-left: 0%;
+        padding-top: 150%;
+        display: grid;
+        grid-template-rows: repeat(1, auto);
+        align-items: center;
+        z-index: 999;
+    }
+
+    .drugaminislika {
+        padding-top: 20%;
+        margin-left: 0%;
+        width: 80%;
+        height: 50%;
+    }
+
+    .trecaminislika {
+        padding-top: 50%;
+        margin-left: 0%;
+        width: 70%;
+        height: 60%;
+    }
+}
+
+@media screen and (min-width:651px) and (max-width:700px) {
+    .secondsection {
+        margin-top: 10%;
+        padding-left: 10%;
+        height: 10%;
+        width: 100%;
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+
+    }
+
+    .secondsection1 {
+        display: grid;
+        padding-left: 10%;
+        margin-top: -350%;
+        grid-template-rows: repeat(4, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+    .secondsection2 {
+        padding-left: 10%;
+        padding-top: 170%;
+        display: grid;
+        grid-template-rows: repeat(1, auto);
+        align-items: center;
+        z-index: 999;
+    }
+}
+
+@media screen and (min-width:520px) and (max-width:650px) {
+    .prvaminislika {
+        padding-top: 70%;
+        margin-left: 0%;
+        width: 70%;
+        height: 50%;
+    }
+
+    .drugaminislika {
+        padding-top: 120%;
+        margin-left: 0%;
+        width: 80%;
+        height: 35%;
+    }
+
+    .trecaminislika {
+        padding-top: 70%;
+        margin-left: 0%;
+        width: 70%;
+        height: 60%;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .prvaminislika {
+        padding-top: 60%;
+        margin-left: 0%;
+        width: 70%;
+        height: 70%;
+    }
+
+    .drugaminislika {
+        padding-top: 150%;
+        margin-left: 0%;
+        width: 80%;
+        height: 35%;
+    }
+
+    .trecaminislika {
+        padding-top: 45%;
+        margin-left: 0%;
+        width: 70%;
+        height: 70%;
+    }
+
+    .firstsection {
+        margin-top: 90%;
+        padding-left: 0%;
+        height: 10%;
+        width: 155%;
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+    }
+
+}
+
+@media screen and (min-width:1000px) and (max-width:1600px) {
+    .jedinica {
+        position: absolute;
+        top: -40px;
+        left: 160px;
+        z-index: 9999999999;
+    }
+
+    .duja {
+        position: absolute;
+        top: 800px;
+        left: 760px;
+        z-index: 9999999999;
+    }
+
+    .trica {
+        position: absolute;
+        top: 1800px;
+        left: 160px;
+        z-index: 9999999999;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:1000px) {
+    .jedinica {
+        position: absolute;
+        top: 190px;
+        left: 120px;
+        width: 10%;
+        height: 2%;
+        z-index: 9999999999;
+    }
+
+    .duja {
+        position: absolute;
+        top: 1740px;
+        left: 120px;
+        width: 10%;
+        height: 2%;
+        z-index: 9999999999;
+    }
+
+    .trica {
+        position: absolute;
+        top: 3700px;
+        left: 120px;
+        width: 10%;
+        height: 2%;
+        z-index: 9999999999;
+    }
+}
+
+@media screen and (min-width:650px) and (max-width:700px) {
+    .jedinica {
+        position: absolute;
+        top: 120px;
+        left: 80px;
+        width: 10%;
+        height: 2%;
+        z-index: 9999999999;
+    }
+
+    .duja {
+        position: absolute;
+        top: 1350px;
+        left: 80px;
+        width: 10%;
+        height: 2%;
+        z-index: 9999999999;
+    }
+
+    .trica {
+        position: absolute;
+        top: 2825px;
+        left: 80px;
+        width: 10%;
+        height: 2%;
+        z-index: 9999999999;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:650px) {
+    .jedinica {
+        position: absolute;
+        top: 150px;
+        left: 60px;
+        width: 10%;
+        height: 2%;
+        z-index: 9999999999;
+    }
+
+    .duja {
+        position: absolute;
+        top: 1225px;
+        left: 60px;
+        width: 10%;
+        height: 2%;
+        z-index: 9999999999;
+    }
+
+    .trica {
+        position: absolute;
+        top: 2120px;
+        left: 60px;
+        width: 10%;
+        height: 2%;
+        z-index: 9999999999;
+    }
+
+    .footersection {
+        margin-top: 180%;
+        margin-left: -6%;
+        height: 10%;
+        width: 110%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        gap: 5px;
+        z-index: 9999;
+
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:768px) {
+    .jedinica {
+        position: absolute;
+        top: 115px;
+        left: 75px;
+        width: 10%;
+        height: 2%;
+        z-index: 9999999999;
+    }
+
+    .duja {
+        position: absolute;
+        top: 1480px;
+        left: 75px;
+        width: 10%;
+        height: 2%;
+        z-index: 9999999999;
+    }
+
+    .trica {
+        position: absolute;
+        top: 2950px;
+        left: 75px;
+        width: 10%;
+        height: 2%;
+        z-index: 9999999999;
+    }
+
+    .secondsection {
+        margin-top: 10%;
+        padding-left: 10%;
+        height: 10%;
+        width: 100%;
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+
+    }
+
+    .secondsection1 {
+        display: grid;
+        padding-left: 10%;
+        margin-top: -300%;
+        grid-template-rows: repeat(4, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+    .secondsection2 {
+        padding-left: 10%;
+        padding-top: 120%;
+        display: grid;
+        grid-template-rows: repeat(1, auto);
+        align-items: center;
+        z-index: 999;
+    }
+
+    .thirdsection {
+        margin-top: 350%;
+        padding-left: 20%;
+        padding-right: 50%;
+        height: 10%;
+        width: 100%;
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+
+    }
+
+    .thirdsection1 {
+        display: grid;
+        grid-template-rows: repeat(4, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+    .thirdsection2 {
+        display: grid;
+        grid-template-rows: repeat(1, auto);
+        align-items: center;
+        z-index: 999;
+    }
+}
+
+@media screen and (min-width:374px) and (max-width:376px) {
+    .jedinica {
+        position: absolute;
+        top: 95px;
+        left: 10px;
+        width: 10%;
+        height: 2%;
+        z-index: 9999999999;
+    }
+
+    .duja {
+        position: absolute;
+        top: 1065px;
+        left: 10px;
+        width: 10%;
+        height: 2%;
+        z-index: 9999999999;
+    }
+
+    .trica {
+        position: absolute;
+        top: 1985px;
+        left: 10px;
+        width: 10%;
+        height: 2%;
+        z-index: 9999999999;
+    }
+
+    .secondsection {
+        margin-top: 10%;
+        padding-left: 0%;
+        height: 10%;
+        width: 135%;
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+
+    }
+
+    .secondsection1 {
+        display: grid;
+        padding-left: 0%;
+        margin-top: -320%;
+        grid-template-rows: repeat(4, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+    .secondsection2 {
+        padding-left: 0%;
+        padding-top: 5%;
+        display: grid;
+        grid-template-rows: repeat(1, auto);
+        align-items: center;
+        z-index: 999;
+    }
+
+    .thirdsection {
+        margin-top: 480%;
+        padding-left: 0%;
+        padding-right: 50%;
+        height: 10%;
+        width: 155%;
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+
+    }
+
+    .thirdsection1 {
+        display: grid;
+        grid-template-rows: repeat(4, auto);
+        align-items: center;
+        gap: 0px;
+        z-index: 9999;
+        overflow: hidden;
+    }
+
+    .thirdsection2 {
+        display: grid;
+        grid-template-rows: repeat(1, auto);
+        align-items: center;
+        z-index: 999;
+    }
+}
